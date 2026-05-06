@@ -1,0 +1,32 @@
+# Evil Clanker
+
+> Evil-clanker is a public MIT-licensed fork of the clanker conversation-state engine, with target zones retuned for heretic / informational LLM steering. Same deterministic 7D VADUGWI engine (4,544-word vocabulary, 61 structural patterns, 0.17ms per sentence). Designed to be wired into chat templates so a language model receives an explicit emotional-state header and a target-zone goal at runtime.
+
+## Core Documentation
+
+- [Full AI Reference](llms-full.txt): Self-contained reference for AI agents
+- [README](README.md): Human-facing overview and quick start
+- [Specification](SPEC.md): Full engine specification
+- [Theory](docs/THEORY.md): Research paper on structural pattern recognition
+
+## Architecture
+
+- [VADUGWI Calculation](docs/vadug-calculation.md): Complete formula reference
+- [Physics Rules](docs/v3-user-physics.md): Structural rules the engine encodes
+- [Linguistic Devices](docs/linguistic-devices-taxonomy.md): Taxonomy of handled devices
+
+## API
+
+- [Engine Entry Point](engine/pendulum.py): 9-stage physics pipeline
+- [Bidirectional Solver](engine/solver.py): A+B=C forward and backward resolution
+- [Force Flow](engine/force_flow.py): WHO does WHAT to WHOM
+
+## Contributing
+
+- [Contributing Guide](CONTRIBUTING.md): How to contribute
+- [Security Policy](SECURITY.md): Vulnerability reporting
+
+## Related
+
+- Upstream sibling repo (AGPL-3.0): https://github.com/deucebucket/clanker
+- Upstream HuggingFace demo: https://huggingface.co/spaces/deucebucket/clanker
